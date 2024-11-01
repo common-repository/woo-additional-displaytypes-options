@@ -1,0 +1,128 @@
+@media screen and (min-width: 1200px) {
+	ul.wado-index-list li a h2{
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	ul.wado-index-list li a h2{
+		width: 65%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	ul.wado-index-list li a h2{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	ul.wado-index-list li a h2{
+		width: 100%;
+	}
+	ul.products li.product {
+		margin-bottom: 0 !important;
+	}
+	ul.products li.product:last-child {
+		margin-bottom: 4.235801032em !important;
+	}
+	
+	ul.products li.wado-indexed:not(:first-child) ul.wado-index-list {
+		margin-top: 0;
+	}
+}
+
+ul.wado-index-list li a {
+	/*white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;*/
+}
+
+ul.wado-index-list li a {
+	text-align: left;
+	/*white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;*/
+}
+
+ul.wado-index-list li a h2{
+	font-weight:500;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+ul.wado-index-list li a h2 mark.count{
+	font-weight:500;
+}
+
+ul.wado-index-list li.wado-letter-group {
+	text-align: left;
+	font-weight:700;
+}
+
+ul.wado-index-list li.wado-letter-group:not(:first-child) h2 {
+	padding-top: .5407911001em;
+}
+
+ul.wado-index-list {
+	display: table;
+	list-style: none;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.term-description p.wado-read-more-wrap img {
+    float: left;
+    margin: 0 55px 40px 0;
+}
+
+.term-description p.wado-read-more-wrap {
+    text-align: justify;
+    text-indent: 2em;
+	margin: 0 0 0 0;
+	display: inline-block;
+}
+
+.term-description.wado-index {
+	min-height: 180px;
+    margin-bottom: 60px;
+}
+
+.term-description .wado-read-more-state {
+  display: none;
+}
+
+.term-description .wado-read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+}
+
+.term-description.wado-index.wado-more .wado-read-more-wrap .wado-read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.term-description.wado-index.wado-more .wado-read-more-dots {
+  display: none;
+}
+
+.term-description.wado-index.wado-less .wado-read-more-dots {
+  display: inline;
+}
+
+.term-description button.wado-read-trigger {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.term-description button.wado-more {
+	display: initial;
+}
+
+.term-description button.wado-less {
+	display: none;
+}
+
